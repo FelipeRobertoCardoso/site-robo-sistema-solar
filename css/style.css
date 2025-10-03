@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(195, 228, 10);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+
+nav a{
+    margin-right: 8px;
+    color: blue;
+    text-decoration: none;
+}
+
+a{
+    c
+}
+
+a:hover{
+    padding: 0px 4px;
+    background-color: rgb(161, 233, 233);
+    border-radius: 18px;
+}
+
+img{
+    border-radius: 18px;
+}
+
+button,input{
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+    background-color: black;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+#resposta{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    text-align: center;
+}

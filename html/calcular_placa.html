@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/calculadora.js"defer></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./radiacao.html">Radiação</a>
+            <a href="./conclusao.html">Conclusão</a>
+            <a href="./Intelbras.html">Intelbras</a>
+            <a href="./weg.html">WEG</a>
+            <a href="../index.html">Energia Solar</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Calcule a quantidade de placas que você precisa</h1>
+        <p>A placa do modelo EMSL 435M HC utiliza 45 kWh por mês. Saiba quantos kWh você quer usar por mês para saber de quantas palcas você vai precisar.</p>
+        <br><br>
+        <label for="qtkwh">Coloque quantos kWh você quer gastar por mês.</label><br>
+        <input type="text" id="qtkwh"><br>
+        <br>
+        <button onclick="principal()">Calcular</button><br><br>
+        <div id="resposta"></div>
+    </main>
+    <footer><br><br><br><br>
+        By Felipe &copy; &trade;
+    </footer>
+</body>
+</html>
