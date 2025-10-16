@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(195, 228, 10);
+    background: linear-gradient(to right, rgb(141, 187, 1), rgb(253, 253, 3), rgb(141, 187, 1));
     text-align: center;
     color: rgb(0, 0, 0);
     font-size: 1.2rem;
