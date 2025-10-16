@@ -1,23 +1,24 @@
 body{
-    background: linear-gradient(to right, rgb(141, 187, 1), rgb(253, 253, 3), rgb(141, 187, 1));
+    background-color: rgb(194, 234, 13);
     text-align: center;
     color: rgb(0, 0, 0);
     font-size: 1.2rem;
 }
 
-nav a{
-    margin-right: 8px;
-    color: blue;
-    text-decoration: none;
+header{
+    background-color: rgb(0, 0, 255);
 }
 
-a{
-    c
+nav a{
+    margin-right: 8px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover{
     padding: 0px 4px;
-    background-color: rgb(161, 233, 233);
+    background-color: rgba(143, 36, 36, 0.3);
     border-radius: 18px;
 }
 
