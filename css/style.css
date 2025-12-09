@@ -4,7 +4,8 @@
 }
 
 body{
-    background-color: rgb(247, 247, 247);
+    padding: 0 20px;
+    background-color: rgb(255, 255, 255);
     text-align: center;
     color: rgb(19, 11, 88);
     font-size: 1.2rem;
