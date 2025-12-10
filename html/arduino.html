@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Arduíno</title>
+    <title>Arduino</title>
 </head>
 
 <body>
@@ -21,16 +21,16 @@
     </header>
     <main>
         <br><br>
-        <h1>Arduíno</h1><br>
+        <h1>Arduino</h1><br>
 
-        <p>Arduíno é uma plataforma de hardware e software de código aberto que possibilita o desenvolvimento de
-            projetos eletrônicos. Ele permite que qualquer pessoa crie, monte e modifique seu próprio arduíno. O arduíno
+        <p>Arduino é uma plataforma de hardware e software de código aberto que possibilita o desenvolvimento de
+            projetos eletrônicos. Ele permite que qualquer pessoa crie, monte e modifique seu próprio arduino. O arduino
             é composto por um microcontrolador Atmel, circuitos, entradas e saídas.</p>
 
         <br>
 
         <div>
-            <img src="../img/arduino.jpg" alt="Imagem de um arduíno"><br>
+            <img src="../img/arduino.jpg" alt="Imagem de um arduino"><br>
             <small>Adapatado de: <a href="http://tinkercad.com">Tinkercad</a></small>
         </div>
 
@@ -49,9 +49,9 @@
 
         <h1>Saida Analógica</h1><br>
 
-        <p> A saida analógica é o processo em que o microcontrolador converte um valor digital em um sinal de analógico
-            de tensão ou corrente para controalr dispositivos. Por mais que a saída analógica nao se aplica ao arduíno,
-            pois não posui opção de saída analógica, ela também é composta por duas respostas: "Ligado" e "Desligado".
+        <p> A saida analógica é o processo em que o microcontrolador converte um valor digital em um sinal analógico, 
+            tensão ou corrente para controlar dispositivos. Por mais que a saída analógica não se aplica ao arduino
+            (pois não possui opção de saída analógica), ela também é composta por duas respostas: "Ligado" e "Desligado".
         </p>
         <p>Volts: ligado = 5V ; Desligado = geralmente perto dos 0V.</p>
         <p>Binário: Ligado = 1 : Desligado = 0.</p>
@@ -62,9 +62,9 @@
         <h1>microcontrolador</h1><br>
 
         <p> Um microcontrolador basicamente é usado para criar projetos interativos e
-            eletrônicos. Elé também é responsável por executar programas e ver as saídas e entradas.</p>
-        <p>O modelo de um microcontrolador do Arduíno Uno (utilizado em sala de aula) é o ATmega328P.</p>
-        <p>Já o fabricante desse modelo do microcontrolador é o prórprio ATMEL.</p>
+            eletrônicos. Ele também é responsável por executar programas e ver as saídas e entradas.</p>
+        <p>O modelo de um microcontrolador do Arduino Uno (utilizado em sala de aula) é o ATmega328P.</p>
+        <p>Já o fabricante desse modelo do microcontrolador é o prórprio ATMEL(Atual microchip).</p>
 
         <br>
 
@@ -73,12 +73,12 @@
         </div>
         <br>
 
-        <h1>Linguagem de Programação do Arduíno</h1><br>
+        <h1>Linguagem de Programação do Arduino</h1><br>
 
-        <p>A Linguagem de programação do arduíno é baseada em C/C++, mas também pode ser programada em MicroPython.</p>
-        <p>C++: A programção do arduíno é uma variante de C++, que permite o uso de funlçoes e objetos para manipular os
+        <p>A Linguagem de programação do arduino é baseada em C/C++, mas também pode ser programada em MicroPython.</p>
+        <p>C++: A programção do arduino é uma variante de C++, que permite o uso de funçoes e objetos para manipular os
             componentes do hardware de forma mais simplificada.</p>
-        <p>MicroPython: em placas com que tem maior poder e processamento, como o raspBerry Pi Pico e alguns modelos
+        <p>MicroPython: em placas que tem maior poder e processamento, como o raspBerry Pi Pico e alguns modelos
             ESP, é possível programar em MicroPython.</p>
 
         <br>
@@ -96,18 +96,18 @@
 
         <h1>Arduino IDE</h1>
 
-        <P>O Arduíno IDE é um software no qual a gente possa programar e enviar para o arduíno fazer o que nós
+        <P>O Arduino IDE é um software no qual a gente possa programar e enviar para o arduino fazer o que nós
             desejamos. </p>
 
         <br>
 
         <div>
-            <img src="../img/arduino IDE.jpg" alt="Imagem do programa arduíno IDE">
+            <img src="../img/arduino IDE.jpg" alt="Imagem do programa arduino IDE">
         </div>
 
         <br>
 
-        <p>A entrada analógica do arduino tem uma tensão de geralmente 0V à 5V. com uma resolução de 10 bits</p>
+        <p>A entrada analógica do arduino tem uma tensão de geralmente 0V à 5V e com uma resolução de 10 bits</p>
 
         <br>
 
@@ -116,10 +116,9 @@
         <p>Multímetro é uma forma de medir as grandezas elétricas, geralmente utilizado para ver o funcionamento das
             ferramentas.</p>
         <p>Um multímetro mede as grandezas chamadas: </p>
-        <p> - Tensão</p>
-        <p> - Corrente (contínua e alternada)</p>
-        <p> - Resistência</p>
-        <p> - Tensão</p>
+        <p> V (Volts) - Tensão</p>
+        <p> A (Amperes) - Corrente (contínua e alternada)</p>
+        <p> Ω (Ohms) - Resistência</p>
 
         <br>
 
@@ -145,7 +144,7 @@
         <h2>Teste de continuiade</h2><br>
 
         <p>O teste de continuidade serve para saber se há um rompimento ou defeito no componente.</p>
-        <p>No multímetro, você utiliza a função de "continuidade" que tem a imagem de uma onda sonora, liga a ponta
+        <p>No multímetro, você utiliza a função de "continuidade" que tem a imagem de uma onda sonora. Liga a ponta
             preta no COM, e a ponta vermelha ligada no V/mA/Ω, e toca cada ponta nas extremidades do componente. Se caso
             ocorrer um barulho, significa que está funcionando, que tem continuidade e que o circuito está fechado.</p>
         <br>
@@ -162,10 +161,10 @@
 
         <h2>Medir Tensão no Círcuito Com Resistor e LED</h2><br>
 
-        <p>Para medir a tensão no circuito com resistor e LED, utilizaremos o multímetro com a função em Tensão contínua
+        <p>Para medir a tensão no circuito com resistor e LED, utilizaremos o multímetro com a função em tensão contínua
             em 20V, com as pontas preta(COM) e vermelha(V/mA/Ω) no multímetro.</p>
         <p>Medir a tensão no led: A ponta vermelha é conectada no lado positivo do LED e a ponta preta é conectada na
-            parte negativa do LED. Para medir a tensão do LED</p><br>
+            parte negativa do LED. Para medir a tensão do LED.</p><br>
 
         <div>
             <img src="../img/medir_tensao_led.jpg" alt="Tensao do LED">
@@ -193,7 +192,7 @@
 
         <br><br><br>
 
-        <h1>PROJETOS ARDUÍNO</h1><br><br>
+        <h1>PROJETOS ARDUINO</h1><br><br>
 
         <h2>Display Sete Segmentos</h2><br>
 
@@ -204,7 +203,7 @@
             <img src="../img/Display_Sete_Segmentos.png" alt="Display de sete segmentos">
         </div><br><br>
 
-        <p>Aqui está a parte fisica do display, junto com um video que demonstra como funciona.</p><br>
+        <p>Aqui está a parte fisica do display, junto com um vídeo que demonstra como funciona.</p><br>
 
         <div>
             <img src="../img/display_segmentos_fisico.jpeg" alt="Parte física do display de sete segmentos">
@@ -215,13 +214,131 @@
         </div><br>
 
         <p>Para saber quantos volts tem quando a medida da tensão chega no valor de 700, é só fazer uma regra de 3. Onde: x = 5 * 700 / 3</p>
-        <p>O valor obtido foi de: 3,4V</p><br>
+        <p>O valor obtido foi de: 3,4V.</p><br>
 
         <div>
             <img src="../img/tensao_700.jpg" alt="segmento no valor de 700">
         </div><br>
 
         <p>O código C++ do display de sete segmentos que é responsável pelo funcionamento do projeto é:</p><br>
+
+        <pre><code>
+        // C++ code
+//
+int nivel = 0;
+
+void setup()
+{
+  pinMode(A0, INPUT);
+  Serial.begin(9600);
+  pinMode(2, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+  pinMode(5, OUTPUT);
+  pinMode(6, OUTPUT);
+  pinMode(7, OUTPUT);
+  pinMode(8, OUTPUT);
+
+  nivel = analogRead(A0);
+}
+
+void loop()
+{
+  nivel = analogRead(A0);
+  Serial.println(nivel);
+  if (nivel <= 99 && nivel < 100) {
+    digitalWrite(2, HIGH);
+    digitalWrite(3, HIGH);
+    digitalWrite(4, HIGH);
+    digitalWrite(5, HIGH);
+    digitalWrite(6, HIGH);
+    digitalWrite(7, HIGH);
+    digitalWrite(8, LOW);
+  }
+  if (nivel >= 100 && nivel < 200) {
+    digitalWrite(2, LOW);
+    digitalWrite(3, HIGH);
+    digitalWrite(4, HIGH);
+    digitalWrite(5, LOW);
+    digitalWrite(6, LOW);
+    digitalWrite(7, LOW);
+    digitalWrite(8, LOW);
+  }
+  if (nivel >= 200 && nivel < 300) {
+    digitalWrite(2, HIGH);
+    digitalWrite(3, HIGH);
+    digitalWrite(4, LOW);
+    digitalWrite(5, HIGH);
+    digitalWrite(6, HIGH);
+    digitalWrite(7, LOW);
+    digitalWrite(8, HIGH);
+  }
+  if (nivel >= 300 && nivel < 400) {
+    digitalWrite(2, HIGH);
+    digitalWrite(3, HIGH);
+    digitalWrite(4, HIGH);
+    digitalWrite(5, HIGH);
+    digitalWrite(6, LOW);
+    digitalWrite(7, LOW);
+    digitalWrite(8, HIGH);
+  }
+  if (nivel >= 400 && nivel < 500) {
+    digitalWrite(2, LOW);
+    digitalWrite(3, HIGH);
+    digitalWrite(4, HIGH);
+    digitalWrite(5, LOW);
+    digitalWrite(6, LOW);
+    digitalWrite(7, HIGH);
+    digitalWrite(8, HIGH);
+  }
+  if (nivel >= 500 && nivel < 600) {
+    digitalWrite(2, HIGH);
+    digitalWrite(3, LOW);
+    digitalWrite(4, HIGH);
+    digitalWrite(5, HIGH);
+    digitalWrite(6, LOW);
+    digitalWrite(7, HIGH);
+    digitalWrite(8, HIGH);
+  }
+  if (nivel >= 600 && nivel < 700) {
+    digitalWrite(2, HIGH);
+    digitalWrite(3, LOW);
+    digitalWrite(4, HIGH);
+    digitalWrite(5, HIGH);
+    digitalWrite(6, HIGH);
+    digitalWrite(7, HIGH);
+    digitalWrite(8, HIGH);
+  }
+  if (nivel >= 700 && nivel < 800) {
+    digitalWrite(2, HIGH);
+    digitalWrite(3, HIGH);
+    digitalWrite(4, HIGH);
+    digitalWrite(5, LOW);
+    digitalWrite(6, LOW);
+    digitalWrite(7, HIGH);
+    digitalWrite(8, LOW);
+  }
+  if (nivel >= 800 && nivel < 900) {
+    digitalWrite(2, HIGH);
+    digitalWrite(3, HIGH);
+    digitalWrite(4, HIGH);
+    digitalWrite(5, HIGH);
+    digitalWrite(6, HIGH);
+    digitalWrite(7, HIGH);
+    digitalWrite(8, HIGH);
+  }
+  if (nivel >= 900) {
+    digitalWrite(2, HIGH);
+    digitalWrite(3, HIGH);
+    digitalWrite(4, HIGH);
+    digitalWrite(5, LOW);
+    digitalWrite(6, LOW);
+    digitalWrite(7, HIGH);
+    digitalWrite(8, HIGH);
+  }
+  delay(10); // Delay a little bit to improve simulation performance
+}
+        </code></pre>
 
         <br><br><br>
         <hr>
@@ -230,13 +347,13 @@
         <h2>Sistema de Medição Analógico Com LEDs </h2><br>
 
         <p>O sistema de medição analógico com leds consiste nos niveis de iluminamentos da entrada analógica que, dependendo da quantidade, liga um led específico.</p>
-        <p>Aqui está o protótipo do Sistema no Tinkercad.</p>
+        <p>Aqui está o protótipo do Sistema no Tinkercad.</p><br>
 
         <div>
             <img src="../img/medicao_LED.jpg" alt="Sistema de medição analógico com LEDs">
         </div><br>
 
-        <p>Aqui está a parte física do sistema, junto com um video que demonstra a funcionamento.</p><br>
+        <p>Aqui está a parte física do sistema, junto com um vídeo que demonstra a funcionamento.</p><br>
 
         <div>
             <img src="../img/medicao_LED_fisico.jpeg" alt="Parte fisica do sistema de medição analogico com leds">
@@ -247,19 +364,100 @@
         </div><br>
 
         <p>Para saber quantos volts tem quando a medida da tensão chega no valor de 300, é só fazer uma regra de 3. Onde: X = 5 * 300 / 1023</p>
-        <p>O valor obtido foi de: 1.5V</p>
+        <p>O valor obtido foi de: 1.5V</p><br>
 
         <div>
             <img src="../img/tensao_300.jpg" alt="quantidade de volts no valor de 300">
         </div><br>
 
-        <p>O codigo do Ssitema de medição analógico que é responsável pelo funcionamento é:</p>
+        <p>O código do Sistema de medição analógico que é responsável pelo funcionamento é:</p>
 
+        <pre><code>
+// C++ code
+//
+int nivel = 0;
+
+void setup()
+{
+  pinMode(A0, INPUT);
+  Serial.begin(9600);
+  pinMode(11, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(13, OUTPUT);
+
+  nivel = analogRead(A0);
+}
+
+void loop()
+{
+  nivel = analogRead(A0);
+  Serial.println(nivel);
+  if (nivel >= 300) {
+    digitalWrite(11, HIGH);
+  } else {
+    digitalWrite(11, LOW);
+  }
+  if (nivel >= 600) {
+    digitalWrite(11, LOW);
+    digitalWrite(12, HIGH);
+  } else {
+    digitalWrite(12, LOW);
+  }
+  if (nivel >= 900) {
+    digitalWrite(12, LOW);
+    digitalWrite(13, HIGH);
+  } else {
+    digitalWrite(13, LOW);
+  }
+  delay(10); // Delay a little bit to improve simulation performance
+}
+        </code></pre>
+
+        <br><br><br>
         <hr>
+        <br><br><br>
+        <h2>Gráfico do arduino</h2>
 
-        <h2>Gráfico do arduíno</h2>
+        <p>O Gráfico do arduino serve para visualizar em tempo real os valores do arduino. Serve para ver o comportamento de sensores e valores ao longo do tempo.</p><br>
 
-        <p></p>
+        <div>
+            <img src="../img/grafico_arduino.jpg" alt="Print do gráfico do Arduino">
+        </div><br>
+
+        <div>
+            <iframe width="300" height="300" src="https://www.youtube.com/embed/nRxvC46XDAA?si=sWzDzquTKKeo_fRy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
+        <br><br><br>
+        <hr>
+        <br><br><br>
+
+        <h2>Monitor Serial</h2>
+        
+        <p>O monitor Serial serve para receber e mostrar em tempo real os dados do arduino. No entanto, diferente do gráfico do arduino, ele pode mostrar os dados em forma de texto e números</p><br>
+
+        <div>
+            <img src="../img/monitor_serial1.jpg" alt="Imagem de um monitor Serial">
+        </div><br>
+
+        <div>
+            <img src="../img/monitor_serial2.jpg" alt="Imagem de um monitor serial">
+        </div>
+        
+        <br><br><br>
+        <hr>
+        <br><br><br>
+
+        <h2>medição da resistência no potenciômetro de 10k ohms</h2><br>
+
+        <div>
+            <img src="../img/potenciometro_ohms.jpg" alt="Foto da medição da resistência no potenciômetro de 10k ohms"><br>
+            <small>Foto tirada por: Miguel Silva</small>
+        <div><br><br>
+        
+        <p>O valor da medição da resistência no potenciômetro deu o 9.1kΩ. O valor não deu exatamente 10kΩ pois pode ter sido pelo nível de tolerância, não dando o valor exato.</p>
+        <br><br><br>
+
     </main>
     <footer>
         <br><br><br><br>
