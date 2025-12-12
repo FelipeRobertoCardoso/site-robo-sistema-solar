@@ -221,120 +221,120 @@
         <p>O código C++ do display de sete segmentos que é responsável pelo funcionamento do projeto é:</p><br>
 
         <pre><code>
-        // C++ code
+// C++ code
 //
 int nivel = 0;
 
 void setup()
 {
-  pinMode(A0, INPUT);
-  Serial.begin(9600);
-  pinMode(2, OUTPUT);
-  pinMode(3, OUTPUT);
-  pinMode(4, OUTPUT);
-  pinMode(5, OUTPUT);
-  pinMode(6, OUTPUT);
-  pinMode(7, OUTPUT);
-  pinMode(8, OUTPUT);
+pinMode(A0, INPUT);
+Serial.begin(9600);
+pinMode(2, OUTPUT);
+pinMode(3, OUTPUT);
+pinMode(4, OUTPUT);
+pinMode(5, OUTPUT);
+pinMode(6, OUTPUT);
+pinMode(7, OUTPUT);
+pinMode(8, OUTPUT);
 
-  nivel = analogRead(A0);
+nivel = analogRead(A0);
 }
 
 void loop()
 {
-  nivel = analogRead(A0);
-  Serial.println(nivel);
-  if (nivel <= 99 && nivel < 100) {
-    digitalWrite(2, HIGH);
-    digitalWrite(3, HIGH);
-    digitalWrite(4, HIGH);
-    digitalWrite(5, HIGH);
-    digitalWrite(6, HIGH);
-    digitalWrite(7, HIGH);
-    digitalWrite(8, LOW);
-  }
-  if (nivel >= 100 && nivel < 200) {
-    digitalWrite(2, LOW);
-    digitalWrite(3, HIGH);
-    digitalWrite(4, HIGH);
-    digitalWrite(5, LOW);
-    digitalWrite(6, LOW);
-    digitalWrite(7, LOW);
-    digitalWrite(8, LOW);
-  }
-  if (nivel >= 200 && nivel < 300) {
-    digitalWrite(2, HIGH);
-    digitalWrite(3, HIGH);
-    digitalWrite(4, LOW);
-    digitalWrite(5, HIGH);
-    digitalWrite(6, HIGH);
-    digitalWrite(7, LOW);
-    digitalWrite(8, HIGH);
-  }
-  if (nivel >= 300 && nivel < 400) {
-    digitalWrite(2, HIGH);
-    digitalWrite(3, HIGH);
-    digitalWrite(4, HIGH);
-    digitalWrite(5, HIGH);
-    digitalWrite(6, LOW);
-    digitalWrite(7, LOW);
-    digitalWrite(8, HIGH);
-  }
-  if (nivel >= 400 && nivel < 500) {
-    digitalWrite(2, LOW);
-    digitalWrite(3, HIGH);
-    digitalWrite(4, HIGH);
-    digitalWrite(5, LOW);
-    digitalWrite(6, LOW);
-    digitalWrite(7, HIGH);
-    digitalWrite(8, HIGH);
-  }
-  if (nivel >= 500 && nivel < 600) {
-    digitalWrite(2, HIGH);
-    digitalWrite(3, LOW);
-    digitalWrite(4, HIGH);
-    digitalWrite(5, HIGH);
-    digitalWrite(6, LOW);
-    digitalWrite(7, HIGH);
-    digitalWrite(8, HIGH);
-  }
-  if (nivel >= 600 && nivel < 700) {
-    digitalWrite(2, HIGH);
-    digitalWrite(3, LOW);
-    digitalWrite(4, HIGH);
-    digitalWrite(5, HIGH);
-    digitalWrite(6, HIGH);
-    digitalWrite(7, HIGH);
-    digitalWrite(8, HIGH);
-  }
-  if (nivel >= 700 && nivel < 800) {
-    digitalWrite(2, HIGH);
-    digitalWrite(3, HIGH);
-    digitalWrite(4, HIGH);
-    digitalWrite(5, LOW);
-    digitalWrite(6, LOW);
-    digitalWrite(7, HIGH);
-    digitalWrite(8, LOW);
-  }
-  if (nivel >= 800 && nivel < 900) {
-    digitalWrite(2, HIGH);
-    digitalWrite(3, HIGH);
-    digitalWrite(4, HIGH);
-    digitalWrite(5, HIGH);
-    digitalWrite(6, HIGH);
-    digitalWrite(7, HIGH);
-    digitalWrite(8, HIGH);
-  }
-  if (nivel >= 900) {
-    digitalWrite(2, HIGH);
-    digitalWrite(3, HIGH);
-    digitalWrite(4, HIGH);
-    digitalWrite(5, LOW);
-    digitalWrite(6, LOW);
-    digitalWrite(7, HIGH);
-    digitalWrite(8, HIGH);
-  }
-  delay(10); // Delay a little bit to improve simulation performance
+nivel = analogRead(A0);
+Serial.println(nivel);
+if (nivel <= 99 && nivel < 100) {
+digitalWrite(2, HIGH);
+digitalWrite(3, HIGH);
+digitalWrite(4, HIGH);
+digitalWrite(5, HIGH);
+digitalWrite(6, HIGH);
+digitalWrite(7, HIGH);
+digitalWrite(8, LOW);
+}
+if (nivel >= 100 && nivel < 200) {
+digitalWrite(2, LOW);
+digitalWrite(3, HIGH);
+digitalWrite(4, HIGH);
+digitalWrite(5, LOW);
+digitalWrite(6, LOW);
+digitalWrite(7, LOW);
+digitalWrite(8, LOW);
+}
+if (nivel >= 200 && nivel < 300) {
+digitalWrite(2, HIGH);
+digitalWrite(3, HIGH);
+digitalWrite(4, LOW);
+digitalWrite(5, HIGH);
+digitalWrite(6, HIGH);
+digitalWrite(7, LOW);
+digitalWrite(8, HIGH);
+}
+if (nivel >= 300 && nivel < 400) {
+digitalWrite(2, HIGH);
+digitalWrite(3, HIGH);
+digitalWrite(4, HIGH);
+digitalWrite(5, HIGH);
+digitalWrite(6, LOW);
+digitalWrite(7, LOW);
+digitalWrite(8, HIGH);
+}
+if (nivel >= 400 && nivel < 500) {
+digitalWrite(2, LOW);
+digitalWrite(3, HIGH);
+digitalWrite(4, HIGH);
+digitalWrite(5, LOW);
+digitalWrite(6, LOW);
+digitalWrite(7, HIGH);
+digitalWrite(8, HIGH);
+}
+if (nivel >= 500 && nivel < 600) {
+digitalWrite(2, HIGH);
+digitalWrite(3, LOW);
+digitalWrite(4, HIGH);
+digtalWrite(5, HIGH);
+digitalWrite(6, LOW);
+digitalWrite(7, HIGH);
+digitalWrite(8, HIGH);
+}
+if (nivel >= 600 && nivel < 700) {
+digitalWrite(2, HIGH);
+digitalWrite(3, LOW);
+digitalWrite(4, HIGH);
+digitalWrite(5, HIGH);
+digitalWrite(6, HIGH);
+digitalWrite(7, HIGH);
+digitalWrite(8, HIGH);
+}
+if (nivel >= 700 && nivel < 800) {
+digitalWrite(2, HIGH);
+digitalWrite(3, HIGH);
+digitalWrite(4, HIGH);
+digitalWrite(5, LOW);
+digitalWrite(6, LOW);
+digitalWrite(7, HIGH);
+digitalWrite(8, LOW);
+}
+if (nivel >= 800 && nivel < 900) {
+digitalWrite(2, HIGH);
+digitalWrite(3, HIGH);
+digitalWrite(4, HIGH);
+digitalWrite(5, HIGH);
+digitalWrite(6, HIGH);
+digitalWrite(7, HIGH);
+digitalWrite(8, HIGH);
+}
+if (nivel >= 900) {
+digitalWrite(2, HIGH);
+digitalWrite(3, HIGH);
+digitalWrite(4, HIGH);
+digitalWrite(5, LOW);
+digitalWrite(6, LOW);
+digitalWrite(7, HIGH);
+digitalWrite(8, HIGH);
+}
+delay(10); // Delay a little bit to improve simulation performance
 }
         </code></pre>
 
