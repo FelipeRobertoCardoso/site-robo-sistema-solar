@@ -35,24 +35,23 @@
 
         <br>
 
-        <h1>Entrada digital</h1><br>
+        <h1>Entrada/Saida Digital</h1><br>
 
-        <p> A entrada digital é uma porta que recebe sinal digital por um sistema ou dispositivo que são reconhecido em
-            dois estados de tensão: "Ligado" e "Desligado".</p><br>
-        <p> A entrada pode ser reconhecida em 3 tipos; Volts, Fisico e Binário.</p>
+        <p> A entrada digital é uma porta que recebe sinal digital por um sistema ou dispositivo. Já a saida é quando o sinal é enviado para um dispositivo eletrónico que são reconhecido em
+            dois estados de tensão: "Ligado" e "Desligado". o</p><br>
+        <p> A entrada pode ser representado de 3 formas; Volts, Fisico e Binário.</p>
         <p> Volts: Ligado = 5V ; Desligado = geralmente perto dos 0V.</p>
         <p> Binário: Ligado = 1 ; Desligado = 0.</p>
         <p> Físico: Ligado = HIGH ; Desligado = LOW.</p>
 
         <br>
 
-        <h1>Saida Analógica</h1><br>
+        <h1>Entrada/Saída Analógica</h1><br>
 
-        <p> A saida analógica é o processo em que o microcontrolador converte um valor digital em um sinal analógico, 
-            tensão ou corrente para controlar dispositivos. Por mais que a saída analógica não se aplica ao arduino
-            (pois não possui opção de saída analógica), ela também é composta por duas respostas: "Ligado" e "Desligado".
-        </p>
-        <p>Volts: ligado = 5V ; Desligado = geralmente perto dos 0V.</p>
+        <p> A Entrada analógica é o processo em que o sinal elétrico é enviado, convertido em valor digital que vai de 0 a 1023, sendo usada em dispositivos que apresentam níveis variados ao invês de 0 e 1. saida analógica é o processo em que o microcontrolador converte um valor digital em um sinal analógico, 
+            tensão ou corrente para controlar dispositivos. O Arduino não tem saída analógica real, mas simula uma usando PWM. O PWM liga e desliga o sinal rapidamente, e o valor de 0 a 255 define quanto tempo ele fica ligado em cada ciclo, gerando uma tensão média entre 0V e 5V.
+        </p><br>
+        <p>Volts: ligado = 5V ; Desligado = ~ 0V.(Variado de 0 a 1023 em valor digital)</p>
         <p>Binário: Ligado = 1 : Desligado = 0.</p>
         <p>Físico: Ligado = HIGH; Desligado = LOW.</p>
 
